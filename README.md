@@ -11,22 +11,26 @@ bash scripts/extract_crates.sh
 ```
 
 解包后会在当前目录生成以下 15 个 crate 目录：
-
-- `app-childtask`
-- `app-collections`
-- `app-fairsched`
-- `app-guestaspace`
-- `app-guestmode`
-- `app-guestmonolithickernel`
-- `app-guestvdev`
+### unikernel
 - `app-helloworld`
-- `app-lazymapping`
-- `app-loadapp`
-- `app-msgqueue`
-- `app-readblk`
+- `app-collections`
 - `app-readpflash`
-- `app-runlinuxapp`
+- `app-childtask`
+- `app-msgqueue`
+- `app-fairsched`
+- `app-readblk`
+- `app-loadapp`
+### monolithic kernel
 - `app-userprivilege`
+- `app-lazymapping`
+- `app-runlinuxapp`
+### hypervisor
+- `app-guestmode`
+- `app-guestaspace`
+- `app-guestvdev`
+- `app-guestmonolithickernel`
+
+
 
 进入任意 crate 目录即可独立构建/运行。
 
