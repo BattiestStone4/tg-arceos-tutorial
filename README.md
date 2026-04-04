@@ -35,15 +35,13 @@ bash scripts/extract_crates.sh
 
 ## `exercise-*` 实验内容
 
-源码随本仓库分发；也可单独使用 `cargo clone <包名>` 从 [crates.io](https://crates.io) 获取（包名见下表「crates.io 包名」列）。
-
-| 目录 | crates.io 包名 | 实验内容说明 |
+| 目录 | 仓库地址 | 实验内容说明 |
 |------|----------------|------|
-| `exercise-printcolor` | `arceos-printcolor` | unikernel，彩色终端输出（ANSI） |
-| `exercise-hashmap` | `arceos-hashmap` | unikernel，在 `axstd` 中实现 `collections::HashMap` |
-| `exercise-altalloc` | `arceos-altalloc` | unikernel，实现 bump 式内存分配器 |
-| `exercise-ramfs-rename` | `arceos-ramfs-rename` | unikernel，ramfs 根文件系统上的 `rename` 支持 |
-| `exercise-sysmap` | `arceos-sysmap` | monolithic kernel，用户态程序与 `mmap` 系统调用实现 |
+| `exercise-printcolor` | https://github.com/arceos-org/exercise-printcolor | unikernel，彩色终端输出（ANSI） |
+| `exercise-hashmap` | https://github.com/arceos-org/exercise-hashmap | unikernel，在 `axstd` 中实现 `collections::HashMap` |
+| `exercise-altalloc` | https://github.com/arceos-org/exercise-altalloc | unikernel，实现 bump 式内存分配器 |
+| `exercise-ramfs-rename` | https://github.com/arceos-org/exercise-ramfs-rename | unikernel，ramfs 根文件系统上的 `rename` 支持 |
+| `exercise-sysmap` | https://github.com/arceos-org/exercise-sysmap | monolithic kernel，用户态程序与 `mmap` 系统调用实现 |
 
 ## 运行
 

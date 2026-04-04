@@ -1,12 +1,12 @@
 [package]
 name = "arceos-printcolor"
-version = "0.4.0"
+version = "0.4.1"
 edition = "2024"
 authors = ["Yuekai Jia <equation618@gmail.com>", "Yu Chen <yuchen@tsinghua.edu.cn>", "Yifan Wang <w-yf22@mails.tsinghua.edu.cn>"]
 description = "A simple printcolor exercise for ArceOS"
 license = "GPL-3.0"
-homepage = "https://github.com/arceos-org/tg-arceos-tutorial"
-repository = "https://github.com/arceos-org/tg-arceos-tutorial"
+homepage = "https://github.com/arceos-org/exercise-printcolor"
+repository = "https://github.com/arceos-org/exercise-printcolor"
 keywords = ["arceos", "exercise"]
 categories = ["os", "no-std"]
 

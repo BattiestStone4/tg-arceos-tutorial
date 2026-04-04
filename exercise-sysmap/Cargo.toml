@@ -1,12 +1,12 @@
 [package]
 name = "arceos-sysmap"
-version = "0.4.0"
+version = "0.4.1"
 edition = "2024"
 authors = ["Yu Chen <yuchen@tsinghua.edu.cn>", "Yifan Wang <w-yf22@mails.tsinghua.edu.cn>"]
-description = "A exercise about supporting sys_mmap operation for ArceOS"
+description = "Exercise about supporting sys_mmap operation for ArceOS"
 license = "GPL-3.0"
-homepage = "https://github.com/arceos-org/tg-arceos-tutorial"
-repository = "https://github.com/arceos-org/tg-arceos-tutorial"
+homepage = "https://github.com/arceos-org/exercise-sysmap"
+repository = "https://github.com/arceos-org/exercise-sysmap"
 keywords = ["arceos", "exercise", "uspace", "syscall", "mmap"]
 categories = ["os", "no-std"]
 
