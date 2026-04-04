@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/arceos-org/exercise-altalloc
 	branch = main
-	commit = 004f4176d7137cb99ee51ce86c87215a6b090581
-	parent = b996a51f6cbab014cab5f4f72c450e269dec76d8
+	commit = ab2b8c21a7beaabb23045a413aeed284290a73c9
+	parent = c40abe56ed4d1ff620da541c799e44dff7c9d10b
 	method = merge
 	cmdver = 0.4.9
