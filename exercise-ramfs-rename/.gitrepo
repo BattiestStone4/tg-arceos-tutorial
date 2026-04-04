@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/arceos-org/exercise-ramfs-rename
 	branch = main
-	commit = bfd9f4e1804734e4613b70203aac693bd06b239d
-	parent = c437242797194e235c31af16ec69aa1379496b66
+	commit = 78afbf606563ca62c571c32de2f438e3389e5f57
+	parent = 93b15af8ae20b24a78e5cbee3909e2a230c2f2dc
 	method = merge
 	cmdver = 0.4.9
